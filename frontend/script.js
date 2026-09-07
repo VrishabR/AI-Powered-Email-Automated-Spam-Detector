@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001";
+const API_URL = "https://ai-powered-email-automated-spam-detector.onrender.com";
 
 async function checkSpam() {
   const input = document.getElementById("emailInput");
