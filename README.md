@@ -4,6 +4,10 @@ A machine learning web app that classifies email text as spam or not spam.
 Built with a TF-IDF vectorizer + classifier trained in scikit-learn,
 served through a Flask API, with a vanilla HTML/CSS/JS frontend.
 
+## Demo
+
+![Spam Detector Demo](demo.png)
+
 ## Tech Stack
 - Python, Flask, scikit-learn (backend + ML model)
 - HTML, CSS, JavaScript (frontend)
