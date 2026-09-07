@@ -20,6 +20,8 @@ served through a Flask API, with a vanilla HTML/CSS/JS frontend.
    classifies it with a trained scikit-learn model.
 4. Result (spam / not spam + confidence %) is returned and displayed.
 
+> NOTE: The backend is hosted on Render's free tier and may take 30-60 seconds to wake up on first use after inactivity.
+
 ## Run Locally
 
 ```bash
