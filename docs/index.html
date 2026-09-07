@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Spam Detector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📧 AI Email Spam Detector</h1>
+    <p class="subtitle">Paste an email below to check if it's spam</p>
+
+    <textarea id="emailInput" placeholder="Paste email text here..."></textarea>
+
+    <button id="checkBtn" onclick="checkSpam()">Check Email</button>
+
+    <div id="resultBox" class="result-box hidden">
+      <p id="resultText"></p>
+      <p id="confidenceText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
